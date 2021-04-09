@@ -246,10 +246,10 @@ form button>img {
     margin-left: 100px;
     font-size: 20px;
 }
-.col-4 ul li {
+.deploy-links li {
     padding-bottom: 25px;
 }
-.col-4 ul li:hover {
+.deploy-links li:hover {
     cursor: pointer;
     background-color: grey;
     color: white;
