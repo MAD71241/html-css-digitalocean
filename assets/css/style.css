@@ -12,6 +12,10 @@ body {
     color: #586788;
 }
 
+.font-deepblue {
+    color: #016BFF
+}
+
 .font-white {
     color: white;
 }
@@ -33,8 +37,34 @@ body {
     transition: 0.5s;
 }
 
+.btn-solid {
+    border: 1px solid #579AFF;
+    background-color: #579AFF;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-shadow {
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .pd-5px {
     padding: 5px;
+}
+
+.mg-bot-5px {
+    margin-bottom: 5px;
+}
+.mg-top-5px {
+    margin-top: 5px;
+}
+.mg-bot-10px {
+    margin-bottom: 10px;
+}
+.mg-top-10px {
+    margin-top: 10px;
 }
 
 .centered {
@@ -80,11 +110,11 @@ body {
 }
 
 /* /HEADER */
-
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
 }
+/* header left column */
 
 .jumbotron>.row>.col-7, .jumbotron>.row>.col-5 {
     height: 450px;
@@ -106,4 +136,44 @@ body {
 .col-7>p {
     width: 88%;
     font-size: 20px;
+}
+
+/* header right column and form */
+.jumbotron-form {
+    margin: 50px 0;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.jumbotron-form>h2:first-of-type {
+    padding-top: 40px;
+}
+.jumbotron-form p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+.jumbotron-form input {
+    display: inline-block;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 90%;
+}
+form button {
+    width: 90%;
+}
+form>.btn-shadow {
+    position: relative;
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 1.5px 1.5px lightgrey
+}
+form button>img {
+    position: absolute;
+    height: 20px;
+    left: 5px;
+    top: 2px;
 }
