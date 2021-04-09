@@ -26,8 +26,9 @@ body {
 
 .btn-outline {
     border: 1px solid #8BBCFF;
+    color: #8BBCFF;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .btn-outline:hover {
@@ -164,6 +165,9 @@ body {
 }
 form button {
     width: 90%;
+}
+form button:hover {
+    cursor: pointer;
 }
 form>.btn-shadow {
     position: relative;
