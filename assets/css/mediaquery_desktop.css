@@ -2,8 +2,7 @@
     .fa-bars {
         display: none;
     }
-
-    .header-row>.col-4 {
-        justify-content: flex-start;
+    .contributors>.col-12 img {
+        width: calc(80% / 6);
     }
 }

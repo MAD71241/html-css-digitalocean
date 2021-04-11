@@ -3,4 +3,47 @@
     .header-menu {
         display: none;
     }
+    .fa-bars {
+        color: #016BFF;
+        position: absolute;
+        right: 10%;
+        top: 25px;
+    }
+    .contributors>.col-12 img {
+        width: calc(80% / 6);
+    }
+    .col-4 ul {
+        margin-left: 10%;
+    }
+    .vertical-divider {
+        left: -10px;
+    }
+    .col-8 .row .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .col-8 .row .card:first-of-type {
+        margin-top: 10px;
+    }
+    /* CAROUSEL */
+    .carousel .row .col-6>img {
+        max-width: 65%;
+    }
+    .carousel p:first-of-type {
+        display: inline-block;
+        width: 70%;
+    }
+    .carousel p:last-of-type {
+        display: inline-block;
+        width: 65%;
+        margin-bottom: 100px;
+    }
+    .carousel .col-3:first-of-type {
+        justify-content: flex-start;
+        margin-right: 5px;
+        font-size: 3rem;
+    }
+    .carousel ul {
+        padding-bottom: 50px;
+    }
 }

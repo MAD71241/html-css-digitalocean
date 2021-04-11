@@ -16,6 +16,10 @@ body {
     color: #016BFF
 }
 
+.font-ultrablue {
+    color: #031C4E
+}
+
 .font-white {
     color: white;
 }
@@ -207,17 +211,18 @@ form button>img {
 }
 .contributors>.col-12 {
     justify-content: center;
-    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.contributors>.col-12 img {
-    width: calc(80% / 6);
+
+.contributors>.col-12>img {
+    height: 100%
 }
 /* deploy */
 .deploy {
     width: 100%;
     text-align: center;
     background-color: white;
-    height: 500px;
 }
 
 .deploy h2 {
@@ -277,4 +282,54 @@ form button>img {
 }
 .card p {
     font-size: 14px;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    width: 100%;
+    text-align: center;
+}
+
+.carousel .row .col-6 {
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel h2 {
+    padding-top: 50px;
+}
+
+.carousel p {
+    font-weight: bold;
+}
+
+.carousel .col-3 {
+    align-items: center;
+}
+.carousel .col-3:first-of-type {
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 3rem;
+}
+.carousel .col-3:last-of-type {
+    justify-content: flex-start;
+    margin-left: 20px;
+    font-size: 3rem;
+}
+
+.carousel .row .col-6>img {
+    margin-top: 50px;
+    width: 100%;
+}
+.carousel-loader li {
+    display: inline-block;
+}
+.carousel-loader li:hover {
+    cursor: pointer;
+}
+.fa-angle-left:hover , .fa-angle-right:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    color: #016BFF;
 }

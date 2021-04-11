@@ -10,4 +10,59 @@
         right: 10%;
         top: 25px;
     }
+    .contributors img {
+        width: 40%;
+        align-items: center
+    }
+
+    .deploy h2 {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+
+    .deploy p {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .col-8 .row {
+        flex-wrap: wrap;
+    }
+    .col-4 ul {
+        margin-left: 10%;
+    }
+    .vertical-divider {
+        left: -10px;
+    }
+    .col-8 .row .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .col-8 .row .card:first-of-type {
+        margin-top: 10px;
+    }
+
+    /* CAROUSEL */
+
+    .carousel .row .col-6>img {
+        max-width: 65%;
+    }
+    .carousel p:first-of-type {
+        display: inline-block;
+        width: 70%;
+    }
+
+    .carousel p:last-of-type {
+        display: inline-block;
+        width: 65%;
+        margin-bottom: 100px;
+    }
+
+    .fa-angle-left , .fa-angle-right {
+        display: none;
+    }
+
+    .carousel ul {
+        padding-bottom: 50px;
+    }
 }
