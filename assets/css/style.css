@@ -124,10 +124,6 @@ body {
 }
 /* MAIN */
 /* header left column */
-
-.jumbotron>.row>.col-7, .jumbotron>.row>.col-5 {
-    height: 450px;
-}
 .jumbotron .col-7 {
     justify-content: center;
     flex-direction: column;

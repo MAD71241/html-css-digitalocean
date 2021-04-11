@@ -26,7 +26,7 @@
         margin-top: 10px;
     }
     /* CAROUSEL */
-    .carousel .row .col-6>img {
+    .carousel .row .col-mid-4>img {
         max-width: 65%;
     }
     .carousel p:first-of-type {
@@ -38,7 +38,7 @@
         width: 65%;
         margin-bottom: 100px;
     }
-    .carousel .col-3:first-of-type {
+    .carousel .col-mid-4:first-of-type {
         justify-content: flex-start;
         margin-right: 5px;
         font-size: 3rem;

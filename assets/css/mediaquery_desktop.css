@@ -5,4 +5,7 @@
     .contributors>.col-12 img {
         width: calc(80% / 6);
     }
+    .jumbotron>.row>.col-7, .jumbotron>.row>.col-5 {
+        height: 450px;
+    }
 }
