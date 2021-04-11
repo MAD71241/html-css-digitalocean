@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+    /* HEADER */
+    .header-menu {
+        display: none;
+        position: relative;
+    }
+    .fa-bars {
+        color: #016BFF;
+        position: absolute;
+        right: 10%;
+        top: 25px;
+    }
+}

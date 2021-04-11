@@ -93,19 +93,19 @@ body {
     color: white;
 }
 
-.header-row>.col-2>img {
+.header-row>.col-8>img {
     height: 40px;
 }
 
-.header-menu, .header-row>.col-2 {
+.header-menu, .header-row>.col-8 {
     align-items: center;
 }
 
-.header-row>.col-6>ul>li, .header-row>.col-4>ul>li {
+.header-row>.col-8>ul>li, .header-row>.col-4>ul>li {
     margin: 10px;
 }
 
-.header-row>.col-6>ul>li:hover, .header-row>.col-4>ul>li:hover {
+.header-row>.col-8>ul>li:hover, .header-row>.col-4>ul>li:hover {
     cursor: pointer;
 }
 

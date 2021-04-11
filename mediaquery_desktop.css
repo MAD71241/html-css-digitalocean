@@ -1,0 +1,9 @@
+@media screen and (min-width: 993px) {
+    .fa-bars {
+        display: none;
+    }
+
+    .header-row>.col-4 {
+        justify-content: flex-start;
+    }
+}
