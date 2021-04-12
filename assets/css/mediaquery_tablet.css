@@ -69,7 +69,12 @@
     }
 
     /* ABOUT US */
-    .slideshow {
-        height: 380px;
+    .slideshow img {
+        max-width: 100%;
+        padding: 20px;
+    }
+    /* FOOTER */
+    footer .col-mid-6 ul {
+        padding: 20px 0;
     }
 }

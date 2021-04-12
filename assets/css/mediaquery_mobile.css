@@ -91,4 +91,8 @@
     .slideshow h4 {
         font-size: 0.75rem;
     }
+        /* FOOTER */
+        footer .col-xs-12 ul {
+            padding: 20px 0;
+        }
 }
