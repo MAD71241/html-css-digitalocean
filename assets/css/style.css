@@ -114,7 +114,7 @@ body {
 }
 
 .header-row>.col-8>ul>li, .header-row>.col-4>ul>li {
-    margin: 10px;
+    padding: 5px;
 }
 
 .header-row>.col-8>ul>li:hover, .header-row>.col-4>ul>li:hover {
@@ -277,7 +277,6 @@ form button>img {
 .col-4 ul {
     list-style: none;
     text-align: left;
-    margin-left: 100px;
     font-size: 20px;
 }
 
