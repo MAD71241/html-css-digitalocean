@@ -1,4 +1,5 @@
 @media screen and (min-width: 481px) and (max-width: 992px) {
+    
     /* HEADER */
     .header-menu {
         display: none;
@@ -8,6 +9,9 @@
         position: absolute;
         right: 10%;
         top: 25px;
+    }
+    .container .header-row .col-8 img:first-of-type {
+        display: none;
     }
     .contributors>.col-12 img {
         width: calc(80% / 6);
@@ -28,6 +32,15 @@
     /* CAROUSEL */
     .carousel .row .col-mid-4>img {
         max-width: 65%;
+        position: relative;
+    }
+    .carousel .row .fa-angle-left {
+        position: absolute;
+        left: 70px;
+    }
+    .carousel .row .fa-angle-right {
+        position: absolute;
+        right: 70px;
     }
     .carousel p:first-of-type {
         display: inline-block;

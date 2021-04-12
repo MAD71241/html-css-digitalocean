@@ -10,6 +10,9 @@
         right: 10%;
         top: 25px;
     }
+    .container .header-row .col-8 img:first-of-type {
+        display: none;
+    }
     .contributors img {
         width: 40%;
         align-items: center

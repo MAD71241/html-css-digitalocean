@@ -8,4 +8,11 @@
     .jumbotron>.row>.col-7, .jumbotron>.row>.col-5 {
         height: 450px;
     }
+    .container .header-row .col-8 img:last-of-type {
+        display: none;
+    }
+    /* CAROUSEL */
+    .carousel-loader li {
+        padding-bottom: 80px;
+    }
 }
