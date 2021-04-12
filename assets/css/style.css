@@ -491,9 +491,11 @@ form button>img {
 .about-us>.row .col-2>i {
     font-size: 50px;
 }
+
 .about-us h4:last-of-type {
     font-weight: normal;
 }
+
 .about-us a {
     text-decoration: none;
     font-weight: bold;
@@ -526,6 +528,7 @@ form button>img {
 .about-us .carousel-loader {
     padding: 20px 0 80px 0;
 }
+
 .about-us .carousel-loader li {
     padding-bottom: 0;
 }
@@ -537,10 +540,12 @@ form button>img {
     background: rgb(9, 9, 121);
     background: linear-gradient(360deg, rgba(9, 9, 121, 1) 0%, rgba(0, 30, 154, 1) 0%, rgba(0, 71, 197, 1) 100%);
 }
+
 .sign-up h2 {
     font-size: 35px;
     padding: 50px 0 30px 0;
 }
+
 .sign-up a {
     text-decoration: none;
     padding: 10px;
@@ -550,38 +555,110 @@ form button>img {
 }
 
 /* FOOTER */
+
 footer {
     width: 100%;
     background-color: #031C4E;
+    position: absolute;
 }
+
 footer .row {
     width: 80%;
 }
+
 footer img {
     padding-top: 100px;
 }
+
 footer .row .col-4 p {
     font-size: 14px;
 }
+
 footer .row .col-4 span i {
     font-size: 18px;
     padding: 10px 10px 0 0;
 }
+
 footer .col-2 ul {
     list-style: none;
     padding-top: 100px;
     padding-bottom: 50px;
 }
+
 footer .col-2 ul>li {
     padding: 5px 0;
 }
+
 footer .col-2 ul>li:hover, footer .col-4 i:hover {
     color: white;
     cursor: pointer;
     transition: 0.5s;
 }
+
 footer .col-2 ul>li:first-of-type {
     font-size: 15px;
     font-weight: bold;
     color: white;
+}
+
+/* HELP BUBBLE */
+
+.helper {
+    position: fixed;
+    bottom: 150px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    background-image: url(../img/shark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    border-radius: 5px;
+}
+.message-counter {
+    display: none;
+    position: fixed;
+    left: 85px;
+    bottom: 190px;
+    background-color: red;
+    border: 5px solid white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+
+.chat-bubble {
+    display: none;
+    position: fixed;
+    bottom: 95px;
+    left: 50px;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.chat-bubble:after {
+    content: "";
+    position: absolute;
+    bottom: 60%;
+    left: 227px;
+    border-top: 20px solid transparent;
+    border-top-color: white;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.chat-bubble p {
+    font-size: 14px;
+}
+.helper:hover .chat-bubble, .helper:hover .message-counter {
+    display: block;
+    cursor: pointer;
 }
