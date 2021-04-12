@@ -77,4 +77,18 @@
     .benchmark .row .col-6 {
         margin: 10px 0;
     }
+    /* ABOUT US */
+    .slideshow {
+        height: 250px;
+    }
+    .slideshow img {
+        padding: 0;
+        max-width: 100%;
+    }
+    .slideshow p {
+        font-size: 0.85rem;
+    }
+    .slideshow h4 {
+        font-size: 0.75rem;
+    }
 }

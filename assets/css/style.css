@@ -435,10 +435,71 @@ form button>img {
 .benchmark .row .col-6>.col-12 h4,.benchmark .row .col-6>.col-12 p,.benchmark .row .col-6>.col-12 a {
     display: inline-block;
 }
+.benchmark .row .col-6>.col-12 h4{
+    flex-grow: 1;
+    text-align: left;
+}
+.benchmark .row .col-6>.col-12 p {
+    display: inline-block;
+    width: 65%;
+    text-align: left;
+}
 .benchmark .row .col-6>.col-12 a {
     text-decoration: none;
     color: #00BDCD;
 }
 .benchmark .row .col-6>.col-12 p  {
     color: #99AFE1
+}
+
+/* ABOUT US */
+.about-us {
+    width: 100%;
+}
+.about-us .row {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.about-us h2 {
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.row-dbg {
+    height: 400px;
+}
+
+.about-us>.row .col-2 {
+    align-items: center;
+    justify-content: flex-end;
+}
+.about-us>.row .col-2:last-of-type {
+    align-items: center;
+    justify-content: flex-start;
+}
+.about-us>.row .col-2>i {
+    font-size: 50px;
+}
+.about-us .row .col-8 {
+    justify-content: center;
+}
+.slideshow {
+    width: 90%;
+    background-color: white;
+
+}
+.slideshow>img {
+    max-width: 60%;
+    padding: 50px;
+}
+.slideshow p {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.slideshow h4:last-of-type {
+    padding: 5px 0 20px 0;
+}
+.about-us .carousel-loader {
+    padding: 20px 0 80px 0;
 }
