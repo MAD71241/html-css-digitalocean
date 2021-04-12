@@ -10,8 +10,11 @@
         right: 10%;
         top: 25px;
     }
-    .container .header-row .col-8 img:first-of-type {
+    .container .header-row .col-xs-3 img:last-of-type {
         display: none;
+    }
+    .container .header-row .col-xs-3 img:first-of-type {
+        max-height: 40%;
     }
     .contributors img {
         width: 40%;
