@@ -23,6 +23,7 @@ body {
 .font-white {
     color: white;
 }
+
 .font-grey {
     color: #687591;
 }
@@ -65,18 +66,24 @@ body {
 .mg-bot-5px {
     margin-bottom: 5px;
 }
+
 .mg-top-5px {
     margin-top: 5px;
 }
+
 .mg-bot-10px {
     margin-bottom: 10px;
 }
+
 .mg-top-10px {
     margin-top: 10px;
 }
 
 .centered {
     margin: auto;
+}
+.text-centered {
+    text-align: center;
 }
 
 .dbg {
@@ -118,32 +125,40 @@ body {
 }
 
 /* /HEADER */
+
 .jumbotron {
     background-image: url(../img/bg-banner-home.jpg);
     background-size: cover;
 }
+
 /* MAIN */
+
 /* header left column */
+
 .jumbotron .col-7 {
     justify-content: center;
     flex-direction: column;
 }
+
 .jumbotron>.row {
     width: 80%;
     height: 100%;
     margin: auto;
 }
+
 .col-7>h1 {
     font-weight: 500;
     font-size: 60px;
     width: 90%;
 }
+
 .col-7>p {
     width: 90%;
     font-size: 20px;
 }
 
 /* JUMBOTRON AND FORM */
+
 .jumbotron-form {
     margin: 50px 0;
     width: 100%;
@@ -152,13 +167,16 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
 .jumbotron-form>h2:first-of-type {
     padding-top: 40px;
 }
+
 .jumbotron-form p {
     font-size: 12px;
     margin-top: 20px;
 }
+
 .jumbotron-form input {
     display: inline-block;
     height: 30px;
@@ -168,30 +186,37 @@ body {
     width: 90%;
     padding-left: 5px;
 }
+
 form button {
     width: 90%;
 }
+
 form button:hover {
     cursor: pointer;
 }
+
 form>.btn-shadow {
     position: relative;
     background-color: white;
     border: 1px solid grey;
     box-shadow: 1.5px 1.5px lightgrey
 }
+
 form button>img {
     position: absolute;
     height: 20px;
     left: 5px;
     top: 2px;
 }
+
 /* contributors */
+
 .contributors {
     width: 100%;
     background-color: #F3F5F9;
     text-align: center;
 }
+
 .contributors a {
     display: inline-block;
     text-decoration: none;
@@ -205,6 +230,7 @@ form button>img {
     color: grey;
     padding-top: 40px;
 }
+
 .contributors>.col-12 {
     justify-content: center;
     align-items: center;
@@ -214,7 +240,9 @@ form button>img {
 .contributors>.col-12>img {
     height: 100%
 }
+
 /* deploy */
+
 .deploy {
     width: 100%;
     text-align: center;
@@ -227,34 +255,41 @@ form button>img {
     font-size: 35px;
     padding-top: 80px;
 }
+
 .deploy p {
     display: inline-block;
     width: 80%;
     font-size: 23px;
     margin: 20px 0 50px 0;
 }
+
 .deploy .col-4, .deploy .col-8 {
     border: 1px solid white;
 }
+
 .deploy .row {
     width: 80%;
     margin: auto;
     position: relative;
 }
+
 .col-4 ul {
     list-style: none;
     text-align: left;
     margin-left: 100px;
     font-size: 20px;
 }
+
 .deploy-links li {
     padding-bottom: 25px;
 }
+
 .deploy-links li:hover {
     cursor: pointer;
     background-color: grey;
     color: white;
 }
+
 .vertical-divider {
     position: absolute;
     display: inline-block;
@@ -264,18 +299,23 @@ form button>img {
     left: 80px;
     top: -5px
 }
+
 /* deploy - card section */
+
 .col-8 .row {
     width: 100%;
 }
+
 .deploy .card {
     width: 50%;
     border: 1px solid white;
     text-align: left;
 }
+
 .deploy .card h4 {
     color: grey;
 }
+
 .deploy .card p {
     font-size: 14px;
 }
@@ -303,11 +343,13 @@ form button>img {
 .carousel .col-3 {
     align-items: center;
 }
+
 .carousel .col-3:first-of-type {
     justify-content: flex-end;
     margin-right: 20px;
     font-size: 3rem;
 }
+
 .carousel .col-3:last-of-type {
     justify-content: flex-start;
     margin-left: 20px;
@@ -318,41 +360,85 @@ form button>img {
     margin-top: 50px;
     width: 100%;
 }
+
 .carousel-loader li {
     display: inline-block;
 }
+
 .carousel-loader li:hover {
     cursor: pointer;
 }
-.fa-angle-left:hover , .fa-angle-right:hover {
+
+.fa-angle-left:hover, .fa-angle-right:hover {
     cursor: pointer;
     transition: 0.2s;
     color: #016BFF;
 }
+
 /* FEATURES */
 
 .features h2 {
     padding-top: 50px;
     padding-bottom: 10px;
 }
+
 .features-row {
     width: 80%;
     margin: auto;
     text-align: center;
 }
+
 .features-row>.col-4 .card h4 {
     padding: 10px 0;
 }
+
 .features .card {
     width: 90%;
     padding-top: 10px;
     text-align: left;
+    padding-bottom: 80px;
 }
+
 .features .card p {
     padding-bottom: 10px;
 }
+
 .features .card a {
     text-decoration: none;
     font-weight: bold;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
+}
+
+/* BENCHMARK */
+
+.benchmark {
+    background: rgb(9, 9, 121);
+    background: linear-gradient(360deg, rgba(9, 9, 121, 1) 0%, rgba(0, 30, 154, 1) 0%, rgba(0, 71, 197, 1) 100%);
+}
+
+.benchmark-row {
+    width: 80%;
+    padding-bottom: 50px;
+}
+.benchmark-row h2 {
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.benchmark .row .col-6>.col-12 {
+    width: 90%;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.benchmark .row .col-6>.col-12 h4,.benchmark .row .col-6>.col-12 p,.benchmark .row .col-6>.col-12 a {
+    display: inline-block;
+}
+.benchmark .row .col-6>.col-12 a {
+    text-decoration: none;
+    color: #00BDCD;
+}
+.benchmark .row .col-6>.col-12 p  {
+    color: #99AFE1
 }

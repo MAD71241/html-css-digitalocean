@@ -65,4 +65,16 @@
     .carousel ul {
         padding-bottom: 50px;
     }
+    /* FEATURES */
+    .benchmark-row h2 {
+        padding-top: 50px;
+        font-size: 19px;
+    }
+    .benchmark .row .col-6>.col-12 {
+        width: 100%;
+        font-size: 0.5rem;
+    }
+    .benchmark .row .col-6 {
+        margin: 10px 0;
+    }
 }
