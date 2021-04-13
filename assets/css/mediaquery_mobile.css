@@ -100,16 +100,16 @@
     }
     /* HELP BUBBLE */
     .helper {
-        bottom: 150px;
-        left: 50px;
+        bottom: 20px;
+        left: 20px;
     }
     .message-counter {
-        left: 85px;
-        bottom: 190px;
+        left: 55px;
+        bottom: 55px;
     }
     .chat-bubble {
-        bottom: 95px;
-        left: 50px;
+        bottom: 20px;
+        left: 85px;
     }
     .chat-bubble:after {
         bottom: 60%;

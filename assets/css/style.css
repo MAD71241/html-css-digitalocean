@@ -264,8 +264,8 @@ form button>img {
     margin: 20px 0 50px 0;
 }
 
-.deploy .col-4, .deploy .col-8 {
-    border: 1px solid white;
+.deploy .col-4{
+    justify-content: center
 }
 
 .deploy .row {
@@ -296,7 +296,7 @@ form button>img {
     width: 1px;
     background-color: grey;
     height: 250px;
-    left: 80px;
+    left: 140px;
     top: -5px
 }
 
